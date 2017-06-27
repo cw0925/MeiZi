@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC62811C1F0204D100F31933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62811B1F0204D100F31933 /* main.m */; };
+		CC62811F1F0204D100F31933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62811E1F0204D100F31933 /* AppDelegate.m */; };
+		CC6281221F0204D100F31933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281211F0204D100F31933 /* ViewController.m */; };
+		CC6281251F0204D100F31933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6281231F0204D100F31933 /* Main.storyboard */; };
+		CC6281271F0204D100F31933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6281261F0204D100F31933 /* Assets.xcassets */; };
+		CC62812A1F0204D100F31933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6281281F0204D100F31933 /* LaunchScreen.storyboard */; };
+		CC6281351F0204D100F31933 /* MeiZiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281341F0204D100F31933 /* MeiZiTests.m */; };
+		CC6281401F0204D100F31933 /* MeiZiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62813F1F0204D100F31933 /* MeiZiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6281311F0204D100F31933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC62810F1F0204D000F31933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6281161F0204D000F31933;
+			remoteInfo = MeiZi;
+		};
+		CC62813C1F0204D100F31933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC62810F1F0204D000F31933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6281161F0204D000F31933;
+			remoteInfo = MeiZi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6281171F0204D000F31933 /* MeiZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC62811B1F0204D100F31933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC62811D1F0204D100F31933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC62811E1F0204D100F31933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6281201F0204D100F31933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC6281211F0204D100F31933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC6281241F0204D100F31933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6281261F0204D100F31933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6281291F0204D100F31933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC62812B1F0204D100F31933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6281301F0204D100F31933 /* MeiZiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiZiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6281341F0204D100F31933 /* MeiZiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiZiTests.m; sourceTree = "<group>"; };
+		CC6281361F0204D100F31933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC62813B1F0204D100F31933 /* MeiZiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiZiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC62813F1F0204D100F31933 /* MeiZiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiZiUITests.m; sourceTree = "<group>"; };
+		CC6281411F0204D100F31933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6281141F0204D000F31933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62812D1F0204D100F31933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6281381F0204D100F31933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC62810E1F0204D000F31933 = {
+			isa = PBXGroup;
+			children = (
+				CC6281191F0204D000F31933 /* MeiZi */,
+				CC6281331F0204D100F31933 /* MeiZiTests */,
+				CC62813E1F0204D100F31933 /* MeiZiUITests */,
+				CC6281181F0204D000F31933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6281181F0204D000F31933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281171F0204D000F31933 /* MeiZi.app */,
+				CC6281301F0204D100F31933 /* MeiZiTests.xctest */,
+				CC62813B1F0204D100F31933 /* MeiZiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6281191F0204D000F31933 /* MeiZi */ = {
+			isa = PBXGroup;
+			children = (
+				CC62811D1F0204D100F31933 /* AppDelegate.h */,
+				CC62811E1F0204D100F31933 /* AppDelegate.m */,
+				CC6281201F0204D100F31933 /* ViewController.h */,
+				CC6281211F0204D100F31933 /* ViewController.m */,
+				CC6281231F0204D100F31933 /* Main.storyboard */,
+				CC6281261F0204D100F31933 /* Assets.xcassets */,
+				CC6281281F0204D100F31933 /* LaunchScreen.storyboard */,
+				CC62812B1F0204D100F31933 /* Info.plist */,
+				CC62811A1F0204D000F31933 /* Supporting Files */,
+			);
+			path = MeiZi;
+			sourceTree = "<group>";
+		};
+		CC62811A1F0204D000F31933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC62811B1F0204D100F31933 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6281331F0204D100F31933 /* MeiZiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281341F0204D100F31933 /* MeiZiTests.m */,
+				CC6281361F0204D100F31933 /* Info.plist */,
+			);
+			path = MeiZiTests;
+			sourceTree = "<group>";
+		};
+		CC62813E1F0204D100F31933 /* MeiZiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC62813F1F0204D100F31933 /* MeiZiUITests.m */,
+				CC6281411F0204D100F31933 /* Info.plist */,
+			);
+			path = MeiZiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6281161F0204D000F31933 /* MeiZi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6281441F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZi" */;
+			buildPhases = (
+				CC6281131F0204D000F31933 /* Sources */,
+				CC6281141F0204D000F31933 /* Frameworks */,
+				CC6281151F0204D000F31933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiZi;
+			productName = MeiZi;
+			productReference = CC6281171F0204D000F31933 /* MeiZi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC62812F1F0204D100F31933 /* MeiZiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6281471F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiTests" */;
+			buildPhases = (
+				CC62812C1F0204D100F31933 /* Sources */,
+				CC62812D1F0204D100F31933 /* Frameworks */,
+				CC62812E1F0204D100F31933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6281321F0204D100F31933 /* PBXTargetDependency */,
+			);
+			name = MeiZiTests;
+			productName = MeiZiTests;
+			productReference = CC6281301F0204D100F31933 /* MeiZiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC62813A1F0204D100F31933 /* MeiZiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC62814A1F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiUITests" */;
+			buildPhases = (
+				CC6281371F0204D100F31933 /* Sources */,
+				CC6281381F0204D100F31933 /* Frameworks */,
+				CC6281391F0204D100F31933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC62813D1F0204D100F31933 /* PBXTargetDependency */,
+			);
+			name = MeiZiUITests;
+			productName = MeiZiUITests;
+			productReference = CC62813B1F0204D100F31933 /* MeiZiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC62810F1F0204D000F31933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = afarsoft;
+				TargetAttributes = {
+					CC6281161F0204D000F31933 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CC62812F1F0204D100F31933 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6281161F0204D000F31933;
+					};
+					CC62813A1F0204D100F31933 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6281161F0204D000F31933;
+					};
+				};
+			};
+			buildConfigurationList = CC6281121F0204D000F31933 /* Build configuration list for PBXProject "MeiZi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC62810E1F0204D000F31933;
+			productRefGroup = CC6281181F0204D000F31933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6281161F0204D000F31933 /* MeiZi */,
+				CC62812F1F0204D100F31933 /* MeiZiTests */,
+				CC62813A1F0204D100F31933 /* MeiZiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6281151F0204D000F31933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC62812A1F0204D100F31933 /* LaunchScreen.storyboard in Resources */,
+				CC6281271F0204D100F31933 /* Assets.xcassets in Resources */,
+				CC6281251F0204D100F31933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62812E1F0204D100F31933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6281391F0204D100F31933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6281131F0204D000F31933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6281221F0204D100F31933 /* ViewController.m in Sources */,
+				CC62811F1F0204D100F31933 /* AppDelegate.m in Sources */,
+				CC62811C1F0204D100F31933 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC62812C1F0204D100F31933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6281351F0204D100F31933 /* MeiZiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6281371F0204D100F31933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6281401F0204D100F31933 /* MeiZiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6281321F0204D100F31933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6281161F0204D000F31933 /* MeiZi */;
+			targetProxy = CC6281311F0204D100F31933 /* PBXContainerItemProxy */;
+		};
+		CC62813D1F0204D100F31933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6281161F0204D000F31933 /* MeiZi */;
+			targetProxy = CC62813C1F0204D100F31933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6281231F0204D100F31933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6281241F0204D100F31933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6281281F0204D100F31933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6281291F0204D100F31933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6281421F0204D100F31933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC6281431F0204D100F31933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6281451F0204D100F31933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6281461F0204D100F31933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC6281481F0204D100F31933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiZiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiZi.app/MeiZi";
+			};
+			name = Debug;
+		};
+		CC6281491F0204D100F31933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiZiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiZi.app/MeiZi";
+			};
+			name = Release;
+		};
+		CC62814B1F0204D100F31933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiZiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiZi;
+			};
+			name = Debug;
+		};
+		CC62814C1F0204D100F31933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiZiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiZi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6281121F0204D000F31933 /* Build configuration list for PBXProject "MeiZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6281421F0204D100F31933 /* Debug */,
+				CC6281431F0204D100F31933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6281441F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6281451F0204D100F31933 /* Debug */,
+				CC6281461F0204D100F31933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6281471F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6281481F0204D100F31933 /* Debug */,
+				CC6281491F0204D100F31933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC62814A1F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62814B1F0204D100F31933 /* Debug */,
+				CC62814C1F0204D100F31933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC62810F1F0204D000F31933 /* Project object */;
+}
