@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4401441F02367B00DFAF46 /* GirlInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4401431F02367B00DFAF46 /* GirlInfoViewController.m */; };
+		CC4401481F02463600DFAF46 /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */; };
 		CC62811C1F0204D100F31933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62811B1F0204D100F31933 /* main.m */; };
-		CC62811F1F0204D100F31933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62811E1F0204D100F31933 /* AppDelegate.m */; };
-		CC6281221F0204D100F31933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281211F0204D100F31933 /* ViewController.m */; };
 		CC6281251F0204D100F31933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6281231F0204D100F31933 /* Main.storyboard */; };
 		CC6281271F0204D100F31933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6281261F0204D100F31933 /* Assets.xcassets */; };
 		CC62812A1F0204D100F31933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6281281F0204D100F31933 /* LaunchScreen.storyboard */; };
 		CC6281351F0204D100F31933 /* MeiZiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281341F0204D100F31933 /* MeiZiTests.m */; };
 		CC6281401F0204D100F31933 /* MeiZiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62813F1F0204D100F31933 /* MeiZiUITests.m */; };
+		CC6281551F02056800F31933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281541F02056800F31933 /* AppDelegate.m */; };
+		CC62815C1F0205AC00F31933 /* AFNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281571F0205AC00F31933 /* AFNetHelper.m */; };
+		CC62815D1F0205AC00F31933 /* Controller.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC6281581F0205AC00F31933 /* Controller.plist */; };
+		CC62815E1F0205AC00F31933 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62815B1F0205AC00F31933 /* RootViewController.m */; };
+		CC6281611F02069100F31933 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281601F02069100F31933 /* BaseViewController.m */; };
+		CC6281641F0206A800F31933 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281631F0206A800F31933 /* HomeViewController.m */; };
+		CC6281671F0206BD00F31933 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281661F0206BD00F31933 /* ClassifyViewController.m */; };
+		CC62816A1F0206CD00F31933 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281691F0206CD00F31933 /* MyViewController.m */; };
+		CC6281711F020AAF00F31933 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281701F020AAF00F31933 /* BaseModel.m */; };
+		CC6281741F020AC500F31933 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281731F020AC500F31933 /* HomeModel.m */; };
+		CC6281781F022CF800F31933 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281761F022CF800F31933 /* HomeCell.m */; };
+		CC6281791F022CF800F31933 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6281771F022CF800F31933 /* HomeCell.xib */; };
+		CCB843FAD0609348A02C36E8 /* libPods-MeiZi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E2615D75DE178E41A172BA /* libPods-MeiZi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D955891450D41B417BD729 /* Pods-MeiZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiZi/Pods-MeiZi.release.xcconfig"; sourceTree = "<group>"; };
+		3E291A2155DDBEC062090989 /* Pods-MeiZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiZi/Pods-MeiZi.debug.xcconfig"; sourceTree = "<group>"; };
+		47E2615D75DE178E41A172BA /* libPods-MeiZi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiZi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4401421F02367B00DFAF46 /* GirlInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GirlInfoViewController.h; sourceTree = "<group>"; };
+		CC4401431F02367B00DFAF46 /* GirlInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GirlInfoViewController.m; sourceTree = "<group>"; };
+		CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
+		CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
 		CC6281171F0204D000F31933 /* MeiZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC62811B1F0204D100F31933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CC62811D1F0204D100F31933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CC62811E1F0204D100F31933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC6281201F0204D100F31933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC6281211F0204D100F31933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC6281241F0204D100F31933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC6281261F0204D100F31933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6281291F0204D100F31933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,30 @@
 		CC62813B1F0204D100F31933 /* MeiZiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiZiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC62813F1F0204D100F31933 /* MeiZiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiZiUITests.m; sourceTree = "<group>"; };
 		CC6281411F0204D100F31933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6281531F02056800F31933 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC6281541F02056800F31933 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6281561F0205AC00F31933 /* AFNetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetHelper.h; sourceTree = "<group>"; };
+		CC6281571F0205AC00F31933 /* AFNetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetHelper.m; sourceTree = "<group>"; };
+		CC6281581F0205AC00F31933 /* Controller.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Controller.plist; sourceTree = "<group>"; };
+		CC6281591F0205AC00F31933 /* PreHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreHeader.pch; sourceTree = "<group>"; };
+		CC62815A1F0205AC00F31933 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CC62815B1F0205AC00F31933 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CC62815F1F02069100F31933 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CC6281601F02069100F31933 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CC6281621F0206A800F31933 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CC6281631F0206A800F31933 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CC6281651F0206BD00F31933 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		CC6281661F0206BD00F31933 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		CC6281681F0206CD00F31933 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CC6281691F0206CD00F31933 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CC62816B1F02081800F31933 /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		CC62816F1F020AAF00F31933 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CC6281701F020AAF00F31933 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CC6281721F020AC500F31933 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		CC6281731F020AC500F31933 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		CC6281751F022CF800F31933 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		CC6281761F022CF800F31933 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		CC6281771F022CF800F31933 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB843FAD0609348A02C36E8 /* libPods-MeiZi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286102DE1676E79934DFB1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47E2615D75DE178E41A172BA /* libPods-MeiZi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A906922A0716B0531FDECEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E291A2155DDBEC062090989 /* Pods-MeiZi.debug.xcconfig */,
+				35D955891450D41B417BD729 /* Pods-MeiZi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC4401451F02461700DFAF46 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */,
+				CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		CC62810E1F0204D000F31933 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +152,8 @@
 				CC6281331F0204D100F31933 /* MeiZiTests */,
 				CC62813E1F0204D100F31933 /* MeiZiUITests */,
 				CC6281181F0204D000F31933 /* Products */,
+				5A906922A0716B0531FDECEB /* Pods */,
+				286102DE1676E79934DFB1C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +170,7 @@
 		CC6281191F0204D000F31933 /* MeiZi */ = {
 			isa = PBXGroup;
 			children = (
-				CC62811D1F0204D100F31933 /* AppDelegate.h */,
-				CC62811E1F0204D100F31933 /* AppDelegate.m */,
-				CC6281201F0204D100F31933 /* ViewController.h */,
-				CC6281211F0204D100F31933 /* ViewController.m */,
-				CC6281231F0204D100F31933 /* Main.storyboard */,
-				CC6281261F0204D100F31933 /* Assets.xcassets */,
-				CC6281281F0204D100F31933 /* LaunchScreen.storyboard */,
-				CC62812B1F0204D100F31933 /* Info.plist */,
+				CC62814D1F02056800F31933 /* Classes */,
 				CC62811A1F0204D000F31933 /* Supporting Files */,
 			);
 			path = MeiZi;
@@ -117,6 +179,10 @@
 		CC62811A1F0204D000F31933 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC6281231F0204D100F31933 /* Main.storyboard */,
+				CC6281261F0204D100F31933 /* Assets.xcassets */,
+				CC6281281F0204D100F31933 /* LaunchScreen.storyboard */,
+				CC62812B1F0204D100F31933 /* Info.plist */,
 				CC62811B1F0204D100F31933 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +206,104 @@
 			path = MeiZiUITests;
 			sourceTree = "<group>";
 		};
+		CC62814D1F02056800F31933 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC4401451F02461700DFAF46 /* Tools */,
+				CC62814E1F02056800F31933 /* Base */,
+				CC62814F1F02056800F31933 /* Classify */,
+				CC6281501F02056800F31933 /* Home */,
+				CC6281511F02056800F31933 /* My */,
+				CC6281521F02056800F31933 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC62814E1F02056800F31933 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC62815F1F02069100F31933 /* BaseViewController.h */,
+				CC6281601F02069100F31933 /* BaseViewController.m */,
+				CC62816F1F020AAF00F31933 /* BaseModel.h */,
+				CC6281701F020AAF00F31933 /* BaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CC62814F1F02056800F31933 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281651F0206BD00F31933 /* ClassifyViewController.h */,
+				CC6281661F0206BD00F31933 /* ClassifyViewController.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		CC6281501F02056800F31933 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC62816E1F020A9200F31933 /* Controller */,
+				CC62816D1F020A8D00F31933 /* View */,
+				CC62816C1F020A8700F31933 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC6281511F02056800F31933 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281681F0206CD00F31933 /* MyViewController.h */,
+				CC6281691F0206CD00F31933 /* MyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CC6281521F02056800F31933 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281561F0205AC00F31933 /* AFNetHelper.h */,
+				CC6281571F0205AC00F31933 /* AFNetHelper.m */,
+				CC6281581F0205AC00F31933 /* Controller.plist */,
+				CC6281591F0205AC00F31933 /* PreHeader.pch */,
+				CC62815A1F0205AC00F31933 /* RootViewController.h */,
+				CC62815B1F0205AC00F31933 /* RootViewController.m */,
+				CC6281531F02056800F31933 /* AppDelegate.h */,
+				CC6281541F02056800F31933 /* AppDelegate.m */,
+				CC62816B1F02081800F31933 /* API.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CC62816C1F020A8700F31933 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281721F020AC500F31933 /* HomeModel.h */,
+				CC6281731F020AC500F31933 /* HomeModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC62816D1F020A8D00F31933 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281751F022CF800F31933 /* HomeCell.h */,
+				CC6281761F022CF800F31933 /* HomeCell.m */,
+				CC6281771F022CF800F31933 /* HomeCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC62816E1F020A9200F31933 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC6281621F0206A800F31933 /* HomeViewController.h */,
+				CC6281631F0206A800F31933 /* HomeViewController.m */,
+				CC4401421F02367B00DFAF46 /* GirlInfoViewController.h */,
+				CC4401431F02367B00DFAF46 /* GirlInfoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6281441F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZi" */;
 			buildPhases = (
+				A3B680DFFF85A9AE9E7C1C4B /* [CP] Check Pods Manifest.lock */,
 				CC6281131F0204D000F31933 /* Sources */,
 				CC6281141F0204D000F31933 /* Frameworks */,
 				CC6281151F0204D000F31933 /* Resources */,
+				FBD793ADA22F2DF734F91AC2 /* [CP] Embed Pods Frameworks */,
+				1FAD4E1CBA9E0BD9B74AAC35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +374,7 @@
 				TargetAttributes = {
 					CC6281161F0204D000F31933 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q3A9R265EU;
 						ProvisioningStyle = Automatic;
 					};
 					CC62812F1F0204D100F31933 = {
@@ -248,7 +416,9 @@
 			files = (
 				CC62812A1F0204D100F31933 /* LaunchScreen.storyboard in Resources */,
 				CC6281271F0204D100F31933 /* Assets.xcassets in Resources */,
+				CC62815D1F0205AC00F31933 /* Controller.plist in Resources */,
 				CC6281251F0204D100F31933 /* Main.storyboard in Resources */,
+				CC6281791F022CF800F31933 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +438,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FAD4E1CBA9E0BD9B74AAC35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiZi/Pods-MeiZi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B680DFFF85A9AE9E7C1C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD793ADA22F2DF734F91AC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeiZi/Pods-MeiZi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC6281131F0204D000F31933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6281221F0204D100F31933 /* ViewController.m in Sources */,
-				CC62811F1F0204D100F31933 /* AppDelegate.m in Sources */,
+				CC4401441F02367B00DFAF46 /* GirlInfoViewController.m in Sources */,
+				CC6281741F020AC500F31933 /* HomeModel.m in Sources */,
+				CC6281711F020AAF00F31933 /* BaseModel.m in Sources */,
+				CC6281781F022CF800F31933 /* HomeCell.m in Sources */,
+				CC6281551F02056800F31933 /* AppDelegate.m in Sources */,
+				CC6281611F02069100F31933 /* BaseViewController.m in Sources */,
+				CC62816A1F0206CD00F31933 /* MyViewController.m in Sources */,
+				CC4401481F02463600DFAF46 /* UIButton+ImageTitleStyle.m in Sources */,
+				CC62815C1F0205AC00F31933 /* AFNetHelper.m in Sources */,
+				CC62815E1F0205AC00F31933 /* RootViewController.m in Sources */,
+				CC6281671F0206BD00F31933 /* ClassifyViewController.m in Sources */,
 				CC62811C1F0204D100F31933 /* main.m in Sources */,
+				CC6281641F0206A800F31933 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +650,11 @@
 		};
 		CC6281451F0204D100F31933 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E291A2155DDBEC062090989 /* Pods-MeiZi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3A9R265EU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Other/PreHeader.pch";
 				INFOPLIST_FILE = MeiZi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZi;
@@ -433,8 +664,11 @@
 		};
 		CC6281461F0204D100F31933 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D955891450D41B417BD729 /* Pods-MeiZi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3A9R265EU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Other/PreHeader.pch";
 				INFOPLIST_FILE = MeiZi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.MeiZi;
@@ -507,6 +741,7 @@
 				CC6281461F0204D100F31933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC6281471F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +750,7 @@
 				CC6281491F0204D100F31933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC62814A1F0204D100F31933 /* Build configuration list for PBXNativeTarget "MeiZiUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +759,7 @@
 				CC62814C1F0204D100F31933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

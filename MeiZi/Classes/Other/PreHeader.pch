@@ -1,0 +1,19 @@
+//
+//  PreHeader.pch
+//  LOLHero
+//
+//  Created by qf on 16/1/12.
+//  Copyright © 2016年 cw. All rights reserved.
+//
+
+#ifndef PreHeader_pch
+#define PreHeader_pch
+/**
+ *  路径设置($(SRCROOT)/$(PROJECT_NAME)/PreHeader.pch)
+ */
+
+#import "AFNetHelper.h"
+#import "API.h"
+#import "UIImageView+WebCache.h"
+
+#endif /* PreHeader_pch */
