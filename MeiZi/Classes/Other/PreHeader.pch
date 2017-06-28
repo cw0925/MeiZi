@@ -15,5 +15,6 @@
 #import "AFNetHelper.h"
 #import "API.h"
 #import "UIImageView+WebCache.h"
+#import "LSProgressHUD.h"
 
 #endif /* PreHeader_pch */

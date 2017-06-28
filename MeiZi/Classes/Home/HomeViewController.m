@@ -11,6 +11,7 @@
 #import "HomeCell.h"
 #import "GirlInfoViewController.h"
 
+
 @interface HomeViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property(nonatomic,copy)NSMutableArray *dataArr;
@@ -66,6 +67,7 @@
 }
 
 - (void)sendRequestHomeData{
+    [LSProgressHUD showToView:self.view message:@"正在加载..."];
     [AFNetHelper GET:HomeURL parameters:nil success:^(id responseObject) {
         NSDictionary *dic = (NSDictionary *)responseObject;
         //NSLog(@"%@",dic);
@@ -76,6 +78,7 @@
                 //NSLog(@"%@",model.imgurl);
                 [self.dataArr addObject:model];
             }
+            [LSProgressHUD hideForView:self.view];
             [homeCollection reloadData];
         }
     } failure:^(NSError *error) {

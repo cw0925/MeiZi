@@ -27,6 +27,8 @@
 		CC6281741F020AC500F31933 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281731F020AC500F31933 /* HomeModel.m */; };
 		CC6281781F022CF800F31933 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6281761F022CF800F31933 /* HomeCell.m */; };
 		CC6281791F022CF800F31933 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6281771F022CF800F31933 /* HomeCell.xib */; };
+		CC7E1B511F03501800B1B155 /* LSGraintCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E1B4E1F03501800B1B155 /* LSGraintCircleLayer.m */; };
+		CC7E1B521F03501800B1B155 /* LSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7E1B501F03501800B1B155 /* LSProgressHUD.m */; };
 		CCB843FAD0609348A02C36E8 /* libPods-MeiZi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E2615D75DE178E41A172BA /* libPods-MeiZi.a */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +55,8 @@
 		47E2615D75DE178E41A172BA /* libPods-MeiZi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiZi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4401421F02367B00DFAF46 /* GirlInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GirlInfoViewController.h; sourceTree = "<group>"; };
 		CC4401431F02367B00DFAF46 /* GirlInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GirlInfoViewController.m; sourceTree = "<group>"; };
-		CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
-		CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
+		CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+ImageTitleStyle.h"; path = "MeiZi/Classes/Tools/UIButton+ImageTitleStyle.h"; sourceTree = SOURCE_ROOT; };
+		CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ImageTitleStyle.m"; path = "MeiZi/Classes/Tools/UIButton+ImageTitleStyle.m"; sourceTree = SOURCE_ROOT; };
 		CC6281171F0204D000F31933 /* MeiZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC62811B1F0204D100F31933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC6281241F0204D100F31933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +93,10 @@
 		CC6281751F022CF800F31933 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		CC6281761F022CF800F31933 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 		CC6281771F022CF800F31933 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		CC7E1B4D1F03501800B1B155 /* LSGraintCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSGraintCircleLayer.h; sourceTree = "<group>"; };
+		CC7E1B4E1F03501800B1B155 /* LSGraintCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSGraintCircleLayer.m; sourceTree = "<group>"; };
+		CC7E1B4F1F03501800B1B155 /* LSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSProgressHUD.h; sourceTree = "<group>"; };
+		CC7E1B501F03501800B1B155 /* LSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +145,9 @@
 		CC4401451F02461700DFAF46 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */,
-				CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */,
+				CC7E1B531F03568800B1B155 /* CustomTagView */,
+				CC7E1B541F03568800B1B155 /* UIButton */,
+				CC7E1B4C1F03501800B1B155 /* LSProgressHUD */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -302,6 +309,33 @@
 				CC4401431F02367B00DFAF46 /* GirlInfoViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC7E1B4C1F03501800B1B155 /* LSProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CC7E1B4D1F03501800B1B155 /* LSGraintCircleLayer.h */,
+				CC7E1B4E1F03501800B1B155 /* LSGraintCircleLayer.m */,
+				CC7E1B4F1F03501800B1B155 /* LSProgressHUD.h */,
+				CC7E1B501F03501800B1B155 /* LSProgressHUD.m */,
+			);
+			path = LSProgressHUD;
+			sourceTree = "<group>";
+		};
+		CC7E1B531F03568800B1B155 /* CustomTagView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTagView;
+			sourceTree = "<group>";
+		};
+		CC7E1B541F03568800B1B155 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				CC4401461F02463600DFAF46 /* UIButton+ImageTitleStyle.h */,
+				CC4401471F02463600DFAF46 /* UIButton+ImageTitleStyle.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +530,8 @@
 				CC6281711F020AAF00F31933 /* BaseModel.m in Sources */,
 				CC6281781F022CF800F31933 /* HomeCell.m in Sources */,
 				CC6281551F02056800F31933 /* AppDelegate.m in Sources */,
+				CC7E1B511F03501800B1B155 /* LSGraintCircleLayer.m in Sources */,
+				CC7E1B521F03501800B1B155 /* LSProgressHUD.m in Sources */,
 				CC6281611F02069100F31933 /* BaseViewController.m in Sources */,
 				CC62816A1F0206CD00F31933 /* MyViewController.m in Sources */,
 				CC4401481F02463600DFAF46 /* UIButton+ImageTitleStyle.m in Sources */,
